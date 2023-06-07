@@ -60,10 +60,16 @@ var hitunganviewnya = amt();
 console.log(hitunganviewnya);
 
 var num = hitunganviewnya;
-document.write(Base64.decode("PHN0eWxlPiNyZXN1bHQtY29udGFpbmVyIGlmcmFtZSB7IHRvcDowcHggIWltcG9ydGFudCB9PC9zdHlsZT4="));
+
+$(document).ready(function(){
+	$('.b-hbp-video').each(function(){ 
+		$(this).attr("style", "top:0px !important"); 
+	});
+});
+
    if(num == 10) { 
       
-   } else if(num % 5 == 0) {
+   } else if(num % 15 == 0) {
       
       var _cpp = _cpp || [];
       _cpp['source_id'] = '95572';
