@@ -61,7 +61,11 @@ console.log(hitunganviewnya);
 
 var num = hitunganviewnya;
 
-document.body.appendChild("<style>#result-container iframe {top:0px !important}</style>");
+$(document).ready(function(){
+	$('#result-container').each(function(){ 
+		$(this).attr("style", "top:0px !important"); 
+	});
+});
 
    if(num == 10) { 
       
