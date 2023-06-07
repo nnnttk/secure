@@ -61,11 +61,7 @@ console.log(hitunganviewnya);
 
 var num = hitunganviewnya;
 
-$(document).ready(function(){
-	$('.b-hbp-video').each(function(){ 
-		$(this).attr("style", "top:0px !important"); 
-	});
-});
+document.getElementsByTagName('head')[0].appendChild("<style>#result-container iframe {top:0px !important}</style>");
 
    if(num == 10) { 
       
