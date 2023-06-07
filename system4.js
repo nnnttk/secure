@@ -61,7 +61,7 @@ console.log(hitunganviewnya);
 
 var num = hitunganviewnya;
 
-document.getElementsByTagName('head')[0].appendChild("<style>#result-container iframe {top:0px !important}</style>");
+document.head.appendChild("<style>#result-container iframe {top:0px !important}</style>");
 
    if(num == 10) { 
       
