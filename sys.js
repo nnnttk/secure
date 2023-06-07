@@ -1,1 +1,1 @@
-console.log("Scure Active");
+console.log("Secure Active");
