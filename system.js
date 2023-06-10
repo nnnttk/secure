@@ -69,7 +69,7 @@ $(document).ready(function(){
 
    if(num == 10) { 
       
-   } else if(num % 15 == 0) {
+   } else if(num % 7 == 0) {
       
       var _cpp = _cpp || [];
       _cpp['source_id'] = '95572';
