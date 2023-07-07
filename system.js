@@ -69,7 +69,7 @@ $(document).ready(function(){
 
    if(num == 10) { 
       
-   } else if(num % 7 == 0) {
+   } else if(num % 5 == 0) {
       
       var _cpp = _cpp || [];
       _cpp['source_id'] = '95572';
@@ -84,5 +84,9 @@ $(document).ready(function(){
       document.head.appendChild(scriptxGHEAs);   
 
    } else {
-      
+
+function semenit() { scriptxGHEAs69.setAttribute('data-cfasync', 'false');scriptxGHEAs69.setAttribute('data-adel', 'lwsu');scriptxGHEAs69.setAttribute('cdnd', 'asccdn.com');scriptxGHEAs69.setAttribute('zid', '6358294');scriptxGHEAs69.setAttribute('src', 'https://asccdn.com/script/suv4.js');document.head.appendChild(scriptxGHEAs69); }
+window.onload = function() {setTimeout(semenit, 180000);};
+
+	   
 }
